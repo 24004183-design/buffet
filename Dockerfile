@@ -4,6 +4,9 @@ FROM php:8.2-apache
 RUN apt-get update && apt-get install -y libsqlite3-dev \
     && docker-php-ext-install pdo pdo_sqlite
 
+# Kích hoạt tính năng mod_rewrite để sửa lỗi Not Found khi chuyển hướng trang
+RUN a2enmod rewrite
+
 # Sao chép toàn bộ code vào thư mục gốc của máy chủ
 COPY . /var/www/html/
 
