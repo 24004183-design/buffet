@@ -35,6 +35,9 @@ require __DIR__ . '/includes/header.php';
     </form>
     <p class="muted" style="text-align:center;margin-top:1rem">Chưa có tài khoản? <a href="<?= url('register.php') ?>">Đăng ký</a></p>
     <div class="alert alert-info" style="font-size:.85rem">
+      <b>Tài khoản demo</b><br>
+      Admin: admin@buffet.vn / admin123<br>
+      Khách: khach@demo.vn / 123456
     </div>
   </div>
 </div>

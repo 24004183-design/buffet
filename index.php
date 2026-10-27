@@ -86,7 +86,7 @@ $siteInfo = app_setting('site_info', 'Buffet nướng, lẩu & hải sản khôn
         <h3><?= e($item['name']) ?></h3>
         <p class="muted"><?= e($item['description']) ?></p>
         <strong class="souvenir-price"><?= money($item['price']) ?></strong>
-        <?php if (!empty($item['product_url'])): ?><a class="btn btn-primary btn-block" href="<?= e($item['product_url']) ?>" <?= preg_match('~^https?://~i', $item['product_url']) ? 'target="_blank" rel="noopener"' : '' ?>>Xem / mua sản phẩm ↗</a><?php else: ?><span class="muted souvenir-note">Thêm đường dẫn mua hàng trong trang quản trị.</span><?php endif; ?>
+        <a class="btn btn-primary btn-block" href="<?= e(url('product.php?id=' . (int)$item['id'])) ?>">Xem chi tiết / Mua ngay ↗</a>
       </article>
       <?php endforeach; ?>
     </div>

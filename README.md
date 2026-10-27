@@ -56,3 +56,6 @@ buffet/
 
 
 **Quản lý quà lưu niệm:** vào Quản trị → Quà lưu niệm để thêm/sửa/xóa sản phẩm, tải ảnh từ máy tính (JPG/PNG/WEBP/GIF tối đa 5 MB), đặt nhãn Siêu hot/Mua nhiều/Nổi bật, thêm link mua hàng và bật/tắt hiển thị.
+
+
+**Trang chi tiết quà lưu niệm:** Khi thêm sản phẩm trong Quản trị → Quà lưu niệm, hệ thống tự tạo đường dẫn dạng `product.php?id=ID`. Không cần nhập URL thủ công. Trang chi tiết hiển thị ảnh, tên, giá, mô tả, nhãn và nút gọi hotline để mua hàng.

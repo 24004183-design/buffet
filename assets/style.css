@@ -266,3 +266,16 @@ select.input{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xml
 .souvenir-empty{max-width:420px;margin:0 auto;text-align:center}
 .souvenir-empty .souvenir-placeholder{margin-bottom:1rem}
 @media(max-width:900px){.nav-links>a.nav-souvenir{display:inline-flex;justify-content:center}}
+
+/* Trang chi tiết quà lưu niệm */
+.product-detail-section{background:linear-gradient(180deg,#fffaf6,#fff);min-height:55vh}
+.product-back{display:inline-block;margin-bottom:1.2rem;color:var(--brand-dark);font-weight:700}
+.product-detail{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.5rem,4vw,3.5rem);padding:clamp(1rem,3vw,2.5rem);align-items:center}
+.product-detail-image img{width:100%;max-height:520px;object-fit:contain;border-radius:18px;background:#fff7f1}
+.product-detail-image .souvenir-placeholder{height:420px}
+.product-detail-content h1{font-size:clamp(1.8rem,4vw,3rem);margin:.8rem 0}
+.product-detail-price{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;color:var(--brand-dark);margin:1rem 0}
+.product-detail-description{line-height:1.8;white-space:normal}
+.product-detail-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.5rem}
+.product-detail-note{font-size:.88rem;margin-top:1rem}
+@media(max-width:760px){.product-detail{grid-template-columns:1fr}.product-detail-image .souvenir-placeholder{height:250px}}
