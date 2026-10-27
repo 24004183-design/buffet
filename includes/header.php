@@ -26,6 +26,7 @@ $_nav = function (string $file, string $label) use ($_cur) {
     <button class="nav-toggle" type="button" aria-label="Mở menu" aria-expanded="false" data-nav-toggle><span></span><span></span><span></span></button>
     <nav class="nav-links" data-nav>
       <?= $_nav('index.php', 'Trang chủ') ?>
+      <a class="nav-souvenir" href="<?= e(url('index.php#qua-luu-niem')) ?>">🎁 Quà lưu niệm</a>
       <a href="<?= e(url('index.php#ve')) ?>">Bảng giá</a>
       <a href="<?= e(url('index.php#quy-trinh')) ?>">Quy trình</a>
       <a href="<?= e(url('index.php#faq')) ?>">Hỏi đáp</a>

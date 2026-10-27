@@ -53,3 +53,6 @@ buffet/
 ## Quy tắc đặt vé
 - Phải có ít nhất 1 vé buffet; số vé nước uống không vượt quá số vé buffet (kiểm tra cả ở trình duyệt và server).
 - Ngày dùng bữa từ hôm nay đến 60 ngày tới; giá luôn lấy từ CSDL.
+
+
+**Quản lý quà lưu niệm:** vào Quản trị → Quà lưu niệm để thêm/sửa/xóa sản phẩm, tải ảnh từ máy tính (JPG/PNG/WEBP/GIF tối đa 5 MB), đặt nhãn Siêu hot/Mua nhiều/Nổi bật, thêm link mua hàng và bật/tắt hiển thị.

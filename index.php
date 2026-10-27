@@ -70,7 +70,6 @@ $siteInfo = app_setting('site_info', 'Buffet nướng, lẩu & hải sản khôn
   </div>
 </section>
 
-<?php if ($souvenirs): ?>
 <section class="section souvenir-section" id="qua-luu-niem">
   <div class="container">
     <div class="section-head">
@@ -78,6 +77,7 @@ $siteInfo = app_setting('site_info', 'Buffet nướng, lẩu & hải sản khôn
       <h2><?= e(app_setting('souvenir_title', 'Quà lưu niệm')) ?></h2>
       <p class="muted"><?= e(app_setting('souvenir_info', 'Khám phá các món quà nhỏ xinh dành tặng người thân và bạn bè.')) ?></p>
     </div>
+    <?php if ($souvenirs): ?>
     <div class="grid-4">
       <?php foreach ($souvenirs as $item): ?>
       <article class="card souvenir-card">
@@ -90,9 +90,11 @@ $siteInfo = app_setting('site_info', 'Buffet nướng, lẩu & hải sản khôn
       </article>
       <?php endforeach; ?>
     </div>
+    <?php else: ?>
+      <div class="card souvenir-empty"><div class="souvenir-placeholder">🎁</div><h3>Sắp có nhiều quà lưu niệm hấp dẫn!</h3><p class="muted">Các sản phẩm sẽ được cập nhật tại đây. Hãy quay lại sau nhé.</p></div>
+    <?php endif; ?>
   </div>
 </section>
-<?php endif; ?>
 
 <section class="section" id="quy-trinh" style="background:#fff">
   <div class="container">

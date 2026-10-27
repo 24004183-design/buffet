@@ -6,6 +6,7 @@ $_items = [
     'dashboard' => ['index.php',    '📊', 'Tổng quan'],
     'orders'    => ['orders.php',   '🧾', 'Đơn hàng'],
     'products'  => ['products.php', '🎟️', 'Vé & giá'],
+    'souvenirs' => ['souvenirs.php', '🎁', 'Quà lưu niệm'],
     'users'     => ['users.php',    '👥', 'Người dùng'],
     'settings'  => ['settings.php', '⚙️', 'Cấu hình website'],
 ];
